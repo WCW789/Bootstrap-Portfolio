@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <title>My Portfolio</title>
+
+</head>
+
+<body>
+
+  <div class="height_Body">  
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+  <h1 class="navbar-brand">Winnie W</h1>
+              
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">                            
+            </ul>
+        <div class="navbar-nav my-0 my-lg-0">
+                
+            <li class="nav-item">
+                <a class="nav-link" style="color: pink" href="./index.html"><b>About</b></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" style="color: pink" href="./portfolio.html"><b>Portfolio</b></a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link" style="color: pink" href="./contact.html"><b>Contact</b></a>
+            </li>
+            
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-7">
+            <div class ="header_Div">
+            <h1 class="header_Class">About Me</h1>
+            </div> 
+
+          <div class="row">
+            <div class="col-sm-3">
+                <img src="./images/MyPhotoWW.GIF" class="img-fluid" alt="Responsive image">
+            </div>
+         
+            <div class="col-sm-9">
+            <p class ="p_Div">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam in, tenetur, adipisci excepturi cumque nostrum, dolore voluptatibus laudantium nam debitis commodi quas accusantium distinctio ducimus quibusdam eius similique. Debitis, molestiae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iusto magni ex saepe cumque mollitia assumenda, dolor consequatur a harum, delectus animi necessitatibus enim suscipit laudantium magnam corporis nemo pariatur!</p>
+            </div>
+          </div>
+        </div>  
+        
+
+        <div class="col-sm-5">
+            <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Contact Me</h5>
+                <div>
+               
+                    <a href = "https://wcw789.github.io/Basic-Portfolio/" target="_blank" class="card-link"><i class="fab fa-github fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/winnie-w789/" target="_blank" class="card-link"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href = "https://stackoverflow.com/users/9277898/winnie-w" target="_blank" class="card-link"><i class="fab fa-stack-overflow fa-3x"></i></a>
+             
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="footerClass">
+  <nav class="navbar sticky-bottom navbar-light">
+        <a class="navbar-brand newClass">Copyright © Winnie W</a>
+  </nav>
+  </div>
+
+<style>
+
+    body {
+        min-height: 100vh;
+    }
+
+    .height_Body {
+        min-height: 100vh;
+    }
+
+    .footerClass {
+        margin-top: 28vh;
+        text-align: center;
+        background: lightpink;
+    }
+
+    .navbar-brand.newClass {
+        font: bolder;
+        margin: auto;
+    }
+
+    .header_Class {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card.text-center {
+        margin-top: 20px;
+        margin-left: 40px;
+        width: 25vw;
+    }
+
+    @media screen and (max-width: 1024px) {
+        
+        .card.text-center {
+           margin-top: 50px;
+           margin-left: 65px;
+           width: 25vw;
+        }
+
+        .img-fluid {
+            margin-left: 30px;
+            padding-right: 5px;
+        }
+
+        .header_Div {
+            margin-left: 20px;
+        }
+
+        .footerClass {
+           margin-top: 39vh;
+           text-align: center;
+           background: lightgreen;
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        
+        .card.text-center {
+           margin-top: 20px;
+           margin-left: 0px;
+           width: 33vw;
+        }
+
+        .img-fluid {
+            margin-left: 0px;
+            padding-right: 10px;
+        }
+
+        .footerClass {
+           margin-top: 44.5vh;
+           text-align: center;
+           background: lightgreen;
+        }
+
+    }
+
+    @media screen and (max-width: 640px) {
+        
+        .card.text-center {
+           margin-top: 20px;
+           margin-left: 0px;
+           width: 92vw;
+        }
+
+        .footerClass {
+           margin-top: 19vh;
+           text-align: center;
+           background: lightgreen;
+        }
+
+    }
+
+</style>
+
+</div>
+</body>
+</html>
+
